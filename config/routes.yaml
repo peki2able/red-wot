@@ -1,0 +1,13 @@
+# config/routes.yaml
+app_test:
+    path: /test
+    controller: App\Controller\TestController::test
+
+app_player:
+    path: /player
+    controller: App\Controller\PlayerController::index
+    
+app_player_api:
+    path: /api/player
+    controller: App\Controller\PlayerController::indexApi
+
